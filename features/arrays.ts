@@ -5,7 +5,7 @@ const carMakers = ['ford', 'toyo', 'chevy'];
 // use type annotation when declaring an empty array
 const carModels: string[] = [];
 
-const carsByMake = [['f150'], ['corolla'], ['camaro']];
+const carsByModel = [['f150'], ['corolla'], ['camaro']];
 // type annotation for 2D arrays (array of awrrays)
 const sampleArray: string[][] = [];
 

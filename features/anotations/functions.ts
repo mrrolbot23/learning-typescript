@@ -35,13 +35,7 @@ const logWeather = (forcast: { date: Date; weather: string }): void => {
 };
 
 // using destructuring
-const logWeather2 = ({
-  date,
-  weather,
-}: {
-  date: Date;
-  weather: string;
-}): void => {
+const logWeather2 = ({ date, weather }: { date: Date; weather: string }): void => {
   console.log(date);
   console.log(weather);
 };
